@@ -4,7 +4,7 @@
   $ano = 2022;//
   $cidade = "São Paulo";//
   $anocompleto = $dia . " de " . $mes . " de " . $ano;
-  echo $cidade . "<br>" . $anocompleto;
+  echo $cidade . ", " . $anocompleto;
   /*
   http://localhost/backend/  (Caminho para testar os códigos)
   Saída:
