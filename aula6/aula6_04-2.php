@@ -8,5 +8,5 @@ echo "<hr>Nome: ".$aluno["nome"];
 echo "<br>Ra: ".$aluno["ra"];
 echo "<br>Curso: ".$aluno["curso"];
 $nome=$_GET["nome"];
-echo "<br>Nome: $nome";
+echo "<br>Nome: $nome"; 
 ?>
