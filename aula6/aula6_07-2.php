@@ -1,5 +1,6 @@
 <?php
-
+$uf=array("SP","RJ","SC","TO","PA","PR","PA","AM");
+sort($uf);
 $aluno=array(
       0=> array("nome"=>"Hebert","ra"=>1234,"nota"=>9.9),
       1=> array("nome"=>"Joao","ra"=>789,"nota"=>8.9),
@@ -31,3 +32,10 @@ Estou por aqui, não fugi não!!!!
 1 min, vou pegar água e já volto!!!!
 */
 ?>
+<br>UF<select name="uf">
+<?php
+for($i=0;$i<count($uf);$i++){
+    echo "<option>".$uf[$i]."</option>";
+}
+?>
+</select>
