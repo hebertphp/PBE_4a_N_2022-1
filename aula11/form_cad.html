@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Cadastro</title>
+    <style>
+        span{
+            color:red;
+        }
+        #cad:hover{
+            background-color: darkorange;
+        }
+    </style>
 </head>
 <body>
     <h1>Form Cadastro</h1>
     <form method="post" action="form_cad_recebe.php">
-        Login <input type="text" id="login" name="login" placeholder="Digite seu login" required><br>
-        Senha <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br>
-        E-mail <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
-        Obs
+        Login <input type="text" id="login" name="login" placeholder="Digite seu login" required> <span>*</span><br>
+        Senha <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required> <span>*</span><br>
+        E-mail <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required> <span>*</span><br>
+        Obs <textarea id="obs" name="obs" placeholder="Digite sua observação"></textarea><br>
+        <input type="submit" value="Cadastrar" id="cad">
+        <input type="reset" value="Limpar">
     </form>
 </body>
 </html>
