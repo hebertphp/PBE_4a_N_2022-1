@@ -15,8 +15,8 @@
 <body>
     <!-- method="get ou post" -->
     <form method="post" action="aula7_03.php">
-    <label for="login">Login</label> <input type="text" id="login" name="login" required><br>
-    <label for="senha">Senha</label> <input type="password" id="senha" name="senha" required><br>
+    <label for="login">Login</label><input type="text" id="login" name="login" required><br>
+    <label for="senha">Senha</label><input type="password" id="senha" name="senha" required><br>
     <label for="cep">Cep</label> <input type="text" id="cep" name="cep" required><br>
     <input type="submit" value="Enviar!">
     </form>

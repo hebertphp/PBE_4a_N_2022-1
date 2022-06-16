@@ -2,7 +2,7 @@
  define("HOST","localhost");
  define("USER","root");
  define("PASS","");
- define("DB","tests");
+ define("DB","test");
  error_reporting(0);//
  mysqli_report(MYSQLI_REPORT_OFF);//
  $conn = mysqli_connect(HOST, USER, PASS, DB);
